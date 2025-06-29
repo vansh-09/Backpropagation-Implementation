@@ -59,12 +59,12 @@ Step 4: Apply activation
 
 We use Mean Squared Error:
 
-\[ \text{Loss} = \frac{1}{n} \sum (y - \hat{y})^2 \]
+$$ \[ \text{Loss} = \frac{1}{n} \sum (y - \hat{y})^2 \] $$
 
 Where:
-- \( y \) = target output
-- \( \hat{y} \) = predicted output
-- \( n \) = number of samples
+- `y` = target output
+- `hat{y}` = predicted output
+- `n` = number of samples
 
 ---
 
@@ -74,10 +74,10 @@ Where:
 $$ \[ \delta_j = o_j (1 - o_j) (t_j - o_j) \] $$
 
 ### Hidden Layer Delta:
-\[ \delta_j = o_j (1 - o_j) \sum_k w_{jk} \delta_k \]
+$$ \[ \delta_j = o_j (1 - o_j) \sum_k w_{jk} \delta_k \] $$
 
 ### Weight Update Rule:
-\[ W = W + \eta \cdot \delta \cdot \text{input}^T \]
+$$ \[ W = W + \eta \cdot \delta \cdot \text{input}^T \] $$
 
 ---
 
@@ -117,8 +117,3 @@ for epoch in range(20000):
 - Learn to apply gradients manually using math
 - See the full backpropagation cycle in action
 - Reproduce original neural net papers with confidence
-
-
----
-
-Want to learn more? Try extending this to OR / NAND gates or multi-layer perceptrons.
