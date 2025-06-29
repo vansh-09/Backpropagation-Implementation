@@ -63,7 +63,7 @@ $$ \[ \text{Loss} = \frac{1}{n} \sum (y - \hat{y})^2 \] $$
 
 Where:
 - `y` = target output
-- `hat{y}` = predicted output
+- `ŷ` = predicted output
 - `n` = number of samples
 
 ---
