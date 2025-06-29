@@ -71,7 +71,7 @@ Where:
 ## Backpropagation Math (Annotated)
 
 ### Output Layer Delta:
-\[ \delta_j = o_j (1 - o_j) (t_j - o_j) \]
+$$ \[ \delta_j = o_j (1 - o_j) (t_j - o_j) \] $$
 
 ### Hidden Layer Delta:
 \[ \delta_j = o_j (1 - o_j) \sum_k w_{jk} \delta_k \]
